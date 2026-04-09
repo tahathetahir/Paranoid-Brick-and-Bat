@@ -22,6 +22,7 @@ The player controls a bat (paddle) at the bottom of the screen using the A and D
 ## How to Run
 Clone the repository on a Windows/Linux machine.</br>
 Ensure mygraphics.h and myconsole.h are in the same directory as main.cpp.</br>
+Ensure that implementations mygraphics.h and myconsole.h namely, mygraphics.cpp and myconsole.cpp are also in same directory as main.cpp </br>
 Build and run the project using any compiler or C++ IDE (preferably Visual Studio Code).</br>
 
 ## Controls of Game 
