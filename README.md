@@ -5,19 +5,19 @@ Paranoid is an arcade game built in C++ inspired by the classic Breakout genre. 
 The player controls a bat (paddle) at the bottom of the screen using the A and D keys to move left and right. A ball bounces around the screen, and the objective is to destroy all bricks in the grid without letting the ball fall past the bat. The player starts with 3 lives, and loses one each time the ball hits the ground. The game ends when all lives are lost. </br>
 
 ## Graphics 
-This project employs graphics and console libraries that are also custom made. The aim was to understand the core dynamics and fundamentals of rendering logic from scratch without the use of pre-defined libraries. In simpler words, the entire game is made with circles and rectangles of different sizes, rendered programmatically across screen. Certain techniques have been employed to create the simulate motion of ball and breaking of bricks. 
+This project employs graphics and console libraries that are also custom made. The aim was to understand the core dynamics and fundamentals of rendering logic from scratch without the use of pre-defined libraries. In simpler words, the entire game is made with circles and rectangles of different sizes, rendered programmatically across screen. Certain techniques have been employed to create the simulate motion of ball and breaking of bricks.  </br>
 
 ## Project Structure
-paranoid/
-├── main.cpp          # Core game loop, physics, rendering, collision
-├── mygraphics.h      # Custom graphics rendering (rectangles, ellipses, text, lines)
-├── myconsole.h       # Console input handling
+paranoid/ </br>
+├── main.cpp          # Core game loop, physics, rendering, collision </br>
+├── mygraphics.h      # Custom graphics rendering (rectangles, ellipses, text, lines) </br>
+├── myconsole.h       # Console input handling </br>
 
-## Tech Stack
-Language: C++
+## Tech Stack 
+Language: C++ </br>
 Graphics: Custom mygraphics.h and myconsole.h libraries (Windows GDI-based rendering)
-Platform: Windows
-Dependencies: Windows.h, conio.h, cmath, fstream, time.h
+Platform: Windows </br>
+Dependencies: Windows.h, conio.h, cmath, fstream, time.h </br>
 
 ## Controls of Game 
 | Key  | Action |
